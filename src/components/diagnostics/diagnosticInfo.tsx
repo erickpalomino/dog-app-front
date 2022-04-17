@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Dog, DogDiag, Diagnostic } from "../../interfaces/dogs/dog";
+import {  DogDiag } from "../../interfaces/dogs/dog";
 import { axiosCustom } from "../../utils/axiosCustom";
 import { AuthContext } from "../../utils/userContext";
 import DiagnosticForm from "./diagnosticRegister";

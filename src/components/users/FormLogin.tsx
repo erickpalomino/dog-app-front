@@ -1,8 +1,7 @@
-import axios from "axios";
+
 import React, { useContext, useState  } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "toast-notification-alert";
-import { User } from "../../interfaces/users/users";
 import { axiosCustom } from "../../utils/axiosCustom";
 import { AuthContext } from "../../utils/userContext";
 

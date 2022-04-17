@@ -1,7 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Form from "./components/users/FormRegister";
 import FormLogin from "./components/users/FormLogin";
 import FormRegister from "./components/users/FormRegister";
 import PublicRoutes from "./utils/publicRoutes";

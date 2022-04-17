@@ -1,11 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Dog } from "../../interfaces/dogs/dog";
 import { axiosCustom } from "../../utils/axiosCustom";
 import { toast } from "toast-notification-alert";
-import { Cloudinary } from "@cloudinary/url-gen";
-import { v2 as cloudinary } from "cloudinary";
-import { url } from "inspector";
-import { timeStamp } from "console";
 
 export default function DogRegister() {
   const blankDog = {

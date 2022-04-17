@@ -1,5 +1,5 @@
-import { dog } from "@cloudinary/url-gen/qualifiers/focusOn";
-import { useContext, useEffect, useState } from "react";
+
+import { useContext, useState } from "react";
 import { Dog, FinDogRequest } from "../../interfaces/dogs/dog";
 import { axiosCustom } from "../../utils/axiosCustom";
 import { AuthContext } from "../../utils/userContext";

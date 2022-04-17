@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { toast } from "toast-notification-alert";
-import { Diagnostic, Dog } from "../../interfaces/dogs/dog";
+import { Diagnostic } from "../../interfaces/dogs/dog";
 import { axiosCustom } from "../../utils/axiosCustom";
 
 export interface diagFormInterface{

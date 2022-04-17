@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import { useEffect, useState } from "react";
 import { toast } from "toast-notification-alert";
 import { uDate, User } from "../../interfaces/users/users";
